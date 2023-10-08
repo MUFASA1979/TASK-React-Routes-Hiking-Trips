@@ -15,7 +15,7 @@ function App() {
 
         <Route path="/TripsList" Component={TripsList} />
 
-        <Route path="/TripDetail/:tripId/" Component={TripDetail} />
+        <Route path="/TripDetail/:slug/" Component={TripDetail} />
       </Routes>
     </div>
   );

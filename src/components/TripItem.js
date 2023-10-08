@@ -4,7 +4,7 @@ import TripDetail from "./TripDetail";
 
 function TripItem({ trip }) {
   return (
-    <Link to={`/TripDetail/${trip.id}`}>
+    <Link to={`/TripDetail/${trip.slug}`}>
       <div className="col-md-6 col-lg-4 mb-5">
         <div
           className="portfolio-item mx-auto"
