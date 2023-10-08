@@ -7,7 +7,7 @@ function TripDetail() {
 
   const trip = tripsData.find((trip) => trip.slug == slug);
   if (!trip) {
-    <Navigate to={"/Home"} />;
+    return <Navigate to={"/Home"} />;
   }
   return (
     <div className="modal-dialog modal-xl">
